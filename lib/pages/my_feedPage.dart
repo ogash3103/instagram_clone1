@@ -120,6 +120,7 @@ class _MyFeedPageState extends State<MyFeedPage> {
           Row(
             children: [
               Row(
+
                 children: [
                   IconButton(onPressed: (){},
                       icon: Icon(EvaIcons.heart,
