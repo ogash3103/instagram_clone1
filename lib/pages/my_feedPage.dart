@@ -1,7 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:eva_icons_flutter/eva_icons_flutter.dart';
 import 'package:flutter/material.dart';
-
 import '../Model/post_model.dart';
 
 class MyFeedPage extends StatefulWidget {
@@ -123,7 +122,7 @@ class _MyFeedPageState extends State<MyFeedPage> {
 
                 children: [
                   IconButton(onPressed: (){},
-                      icon: Icon(EvaIcons.heart,
+                      icon: const Icon(EvaIcons.heart,
                         color: Colors.red,
                       ),
                   ),
